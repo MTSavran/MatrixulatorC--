@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56EA1BC817E48EF300DF50A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56EA1BC717E48EF300DF50A0 /* main.cpp */; };
+		56EA1BC817E48EF300DF50A0 /* matrixulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56EA1BC717E48EF300DF50A0 /* matrixulator.cpp */; };
 		56EA1BCA17E48EF300DF50A0 /* MatrixulatorC__.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56EA1BC917E48EF300DF50A0 /* MatrixulatorC__.1 */; };
 /* End PBXBuildFile section */
 
@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		56EA1BC417E48EF300DF50A0 /* MatrixulatorC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "MatrixulatorC++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		56EA1BC717E48EF300DF50A0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56EA1BC717E48EF300DF50A0 /* matrixulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrixulator.cpp; sourceTree = "<group>"; };
 		56EA1BC917E48EF300DF50A0 /* MatrixulatorC__.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MatrixulatorC__.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,7 +60,7 @@
 		56EA1BC617E48EF300DF50A0 /* MatrixulatorC++ */ = {
 			isa = PBXGroup;
 			children = (
-				56EA1BC717E48EF300DF50A0 /* main.cpp */,
+				56EA1BC717E48EF300DF50A0 /* matrixulator.cpp */,
 				56EA1BC917E48EF300DF50A0 /* MatrixulatorC__.1 */,
 			);
 			path = "MatrixulatorC++";
@@ -117,7 +117,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56EA1BC817E48EF300DF50A0 /* main.cpp in Sources */,
+				56EA1BC817E48EF300DF50A0 /* matrixulator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +216,7 @@
 				56EA1BCF17E48EF300DF50A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
